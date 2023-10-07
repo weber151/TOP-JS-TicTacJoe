@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="TTT_Script.js"></script>
+    <link rel="stylesheet" href="TTT_Style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Tic Tac Joe!</h1>
+        <div class="header-buttons">
+            <button onclick="displayController.playGame()">NEW GAME</button>
+            <button onclick="displayController.clearBoard()">CLEAR</button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="game" id="gameArea">
+            <div class="gameEnd"></div>
+        </div>
+        <div class="history-area">
+            <p>GAME HISTORY</p>
+            <div id="gameHistory">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Joe Weber - Learning Project</p>
+    </div>
+</body>
+</html>
